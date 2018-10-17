@@ -29,4 +29,83 @@ public class PageEntity<E> {
 
     private boolean hasNext; // 是否有后一页
 
+    public List<E> getPageList() {
+        return pageList;
+    }
+
+    public void setPageList(List<E> pageList) {
+        this.pageList = pageList;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
+    }
+
+    public int getTotalPages() {
+        return totalPages;
+    }
+
+    public void setTotalPages(int totalPages) {
+        this.totalPages = totalPages;
+    }
+
+    public int getTotalElements() {
+        return totalElements;
+    }
+
+    public void setTotalElements(int totalElements) {
+        this.totalElements = totalElements;
+    }
+
+    public boolean hasContent() {
+        return hasContent;
+    }
+
+    public void setHasContent(boolean hasContent) {
+        this.hasContent = hasContent;
+    }
+
+    public boolean isFirst() {
+        return isFirst;
+    }
+
+    public void setFirst(boolean isFirst) {
+        this.isFirst = isFirst;
+    }
+
+    public boolean isLast() {
+        return isLast;
+    }
+
+    public void setLast(boolean isLast) {
+        this.isLast = isLast;
+    }
+
+    public boolean hasPrevious() {
+        return hasPrevious;
+    }
+
+    public void setHasPrevious(boolean hasPrevious) {
+        this.hasPrevious = hasPrevious;
+    }
+
+    public boolean hasNext() {
+        return hasNext;
+    }
+
+    public void setHasNext(boolean hasNext) {
+        this.hasNext = hasNext;
+    }
 }
