@@ -57,8 +57,8 @@ public class PageTest {
         System.out.println("当前这一页的数据: \r\n" + pList);
         System.out.println("当前是第" + number + "页");
         System.out.println("这一页有" + curSize + "条记录");
-        System.out.println("共" + totalPage + "页");
-        System.out.println("共" + totalElements + "条记录");
+        System.err.println("共" + totalPage + "页");
+        System.err.println("共" + totalElements + "条记录");
         System.out.println(hasContent ? "当前这一页有内容" : "当前这一页没有内容");
         System.out.println(isFirst ? "当前这一页是第一页" : "当前这一页不是第一页");
         System.out.println(isLast ? "当前这一页是最后一页" : "当前这一页不是最后一页");
